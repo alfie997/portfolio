@@ -90,6 +90,8 @@ ul {
 
 li {
     list-style: none;
+    /* overflow:inherit; */
+    word-wrap: break-word;
     background-color: rgb(189, 221, 255);
     margin-bottom: 3px;
     padding-left: 5px;
@@ -141,6 +143,7 @@ li {
 }
 
 .contact {
+    height: 175px;
     margin-top: 500px;
     background-color: #b1ffb4;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.132), 5px 5px 15px rgba(0, 0, 0, 0.132);
@@ -168,7 +171,7 @@ li {
 .other {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 300px;
+    margin-top: 340px;
 }
 
 .other h2 {
@@ -176,7 +179,8 @@ li {
 }
 
 .payment {
-    height: 290px;
+    height: 330px;
+    width: 190px;
     background-color: #fff4ba;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.132), 5px 5px 15px rgba(0, 0, 0, 0.132);
     grid-column: 1;
